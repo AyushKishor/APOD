@@ -11,7 +11,7 @@ app.set("view engine", "ejs");
 
 app.get("/",function(req,res)
 {
-	const url = "https://api.nasa.gov/planetary/apod?api_key=12EdxT6zsvdIbIJWnCPR94cuUayLEygwswykZNg3";
+	const url = "https://api.nasa.gov/planetary/apod?api_key=";
 
 	https.get(url, function(response)
 	{
